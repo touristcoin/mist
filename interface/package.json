@@ -1,0 +1,27 @@
+{
+  "name": "Mist-Interface",
+  "version": "0.1.0",
+  "description": "Tourist Coin Mist interface application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touristcoin/mist.git"
+  },
+  "keywords": [
+    "touristcoin",
+    "mist",
+    "web3"
+  ],
+  "author": "Akira Takizawa <akx20000@protonmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/touristcoin/mist/issues"
+  },
+  "homepage": "https://github.com/touristcoin/mist#readme",
+  "dependencies": {
+    "babel-runtime": "^6.18.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "clients": {
+        "Geth": {
+            "version": "1.8.4",
+            "platforms": {
+                "linux": {
+                    "x64": {
+                        "download": {
+                            "url": "https://touristcoin.blob.core.windows.net/builds/multi-geth-linux-v1.8.4.zip",
+                            "type": "zip",
+                            "md5": "ac6efe75fcfd00815e7eb076b3f7c54d"
+                        },
+                        "bin": "geth",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Geth",
+                                    "1.8.4"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "mac": {
+                    "x64": {
+                        "download": {
+                            "url": "https://touristcoin.blob.core.windows.net/builds/multi-geth-osx-v1.8.4.zip",
+                            "type": "zip",
+                            "md5": "80b0a91e78ae1aaceee2e2a93bcbe477"
+                        },
+                        "bin": "geth",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Geth",
+                                    "1.8.4"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "win": {
+                    "x64": {
+                        "download": {
+                            "url": "https://touristcoin.blob.core.windows.net/builds/multi-geth-win64-v1.8.4.zip",
+                            "type": "zip",
+                            "md5": "78f964fc9a4607ab698bc6d24e98cef3"
+                        },
+                        "bin": "geth.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Geth",
+                                    "1.8.4"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

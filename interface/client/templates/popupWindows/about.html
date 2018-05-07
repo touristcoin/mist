@@ -1,0 +1,17 @@
+<template name="popupWindows_about">
+    <div class="row popup-windows about">
+        <div class="col col-4 ">
+            <img class="left-overlay {{mode}}" src="{{appIconPath}}" style="position: relative;top: -40px;left: -132%;width: 255%;">
+        </div>
+        <div class="col col-8 ">
+            <h1>{{appName}}</h1>
+            <p>
+                Version {{mist.version}}<br>
+                License {{mist.license}}<br>
+                Homepage <a href="https://touristcoin.net" target="_blank">touristcoin.net</a><br>
+                GitHub <a href="https://github.com/touristcoin/mist" target="_blank">github.com/touristcoin/mist</a>
+            </p>
+            <small>Copyright 2018 Tourist Coin Community</small>
+        </div>
+    </div>
+</template>
